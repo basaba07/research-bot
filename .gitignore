@@ -8,5 +8,6 @@ workspace/
 *_cache/
 local/
 config.yaml
+bin/
 skills/
 !skills/data-science/
