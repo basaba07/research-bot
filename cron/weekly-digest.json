@@ -1,0 +1,7 @@
+{
+  "name": "weekly-digest",
+  "schedule": "0 8 * * 1",
+  "description": "Every Monday at 8am — search arXiv for papers published in the past week on configured topics and produce a summary digest",
+  "prompt": "Search arXiv for papers published in the last 7 days on the following topics: machine learning, LLM agents, retrieval-augmented generation. For each topic, find the top 3 most cited or relevant papers. Summarize each paper in 2-3 sentences covering the problem, method, and key result. Present the full digest grouped by topic.",
+  "enabled": true
+}
