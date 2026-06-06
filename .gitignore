@@ -7,3 +7,6 @@ logs/
 workspace/
 *_cache/
 local/
+config.yaml
+skills/
+!skills/data-science/
